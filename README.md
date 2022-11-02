@@ -7,4 +7,3 @@ This code will create a connect four game
     Name - Std Num
     Name - Std Num
    
-print("This is the start of our code")
