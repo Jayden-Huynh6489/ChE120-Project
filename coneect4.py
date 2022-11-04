@@ -4,7 +4,7 @@ Created on Fri Nov  4 15:45:20 2022
 
 @author: dingh
 """
-
+"""Here is where specific modules are being imported. We see a familiar one from the lectures."""
 import numpy as np
 import pygame
 import sys
