@@ -2,7 +2,7 @@
 """
 Created on Fri Nov  4 15:45:20 2022
 
-@author: dingh
+@author: dingh, Jayden Huynh (21024709)
 """
 #N.A. commenting starts here
 """Here is where specific modules are being imported. We see a familiar one from the lectures."""
@@ -83,7 +83,9 @@ def winning_move(board, piece):
             if board[r][c] == piece and board[r-1][c+1] == piece and board[r-2][c+2] == piece and board[r-3][c+3] == piece:
                 return True
 
-"""This function creates the game board through the use of a blue rectangular board, with black circles aligned in the rows and columns for the markers to
+"""
+This comment is created by Jayden Huynh
+This function creates the game board through the use of a blue rectangular board, with black circles aligned in the rows and columns for the markers to
 go into. It then, creates the markers for the players based on turn order. For odd number turns, the function will draw a red marker for player one, and
 for the even number turns, the function will draw a yellow marker for player two."""
 def draw_board(board):
