@@ -4,7 +4,8 @@ Created on Fri Nov  4 15:45:20 2022
 
 @author: charlie ding(21005651), Jayden Huynh (21024709), Nicolas Aiello (21039297), 
 """
-"""Nicolas's comment start here"""
+"""
+Nicolas's comments start here."""
 
 """Here is where specific modules are being imported. We see a familiar one from the lectures."""
 import numpy as np
