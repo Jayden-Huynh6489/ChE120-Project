@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Nov  4 15:45:20 2022
-
+https://www.askpython.com/python/examples/connect-four-game
 @author: charlie ding(21005651), Jayden Huynh (21024709), Nicolas Aiello (21039297), 
 """
 """
