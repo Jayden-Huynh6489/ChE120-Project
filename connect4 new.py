@@ -2,7 +2,7 @@
 """
 Created on Wed Nov  9 15:45:57 2022
 
-@author: charlie, grace ,jaden, nicolas
+@author: charlie, grace ,jayden, nicolas
 """
 
 #N.A. commenting starts here
