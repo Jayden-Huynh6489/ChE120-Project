@@ -2,7 +2,7 @@
 """
 Created on Wed Nov  9 15:45:57 2022
 
-@author: Charlie, Grace ,Jayden, Nicolas
+@author: Charlie, Grace, Jayden, Nicolas
 """
 
 
