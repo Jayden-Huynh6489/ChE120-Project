@@ -82,18 +82,25 @@ def winning_move(board, piece):
         for r in range(3, ROW_COUNT):
             if board[r][c] == piece and board[r-1][c+1] == piece and board[r-2][c+2] == piece and board[r-3][c+3] == piece:
                 return True
- 
+
+"""This function creates the game board through the use of a blue rectangular board, with black circles aligned in the rows and columns for the markers to
+go into. It then, creates the markers for the players based on turn order. For odd number turns, the function will draw a red marker for player one, and
+for the even number turns, the function will draw a yellow marker for player two."""
 def draw_board(board):
     for c in range(COLUMN_COUNT):
         for r in range(ROW_COUNT):
+            # Creates the overall game board
             pygame.draw.rect(screen, BLUE, (c*SQUARESIZE, r*SQUARESIZE+SQUARESIZE, SQUARESIZE, SQUARESIZE))
+            # Creates the circles where the markers will be placed into
             pygame.draw.circle(screen, BLACK, (int(c*SQUARESIZE+SQUARESIZE/2), int(r*SQUARESIZE+SQUARESIZE+SQUARESIZE/2)), RADIUS)
      
     for c in range(COLUMN_COUNT):
         for r in range(ROW_COUNT):      
             if board[r][c] == 1:
+                # Creates the red markers for the first player on every odd number turn
                 pygame.draw.circle(screen, RED, (int(c*SQUARESIZE+SQUARESIZE/2), height-int(r*SQUARESIZE+SQUARESIZE/2)), RADIUS)
             elif board[r][c] == 2: 
+                # Creates the yellow markers for the second player on every even number turn
                 pygame.draw.circle(screen, YELLOW, (int(c*SQUARESIZE+SQUARESIZE/2), height-int(r*SQUARESIZE+SQUARESIZE/2)), RADIUS)
     pygame.display.update()
  
