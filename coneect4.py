@@ -97,7 +97,9 @@ def draw_board(board):
                 pygame.draw.circle(screen, YELLOW, (int(c*SQUARESIZE+SQUARESIZE/2), height-int(r*SQUARESIZE+SQUARESIZE/2)), RADIUS)
     pygame.display.update()
  
- 
+"""
+the comment is created by Charlie Ding
+The purpose of the part of code is to initize some variable for the function and for the game""" 
 board = create_board()
 print_board(board)
 game_over = False
@@ -125,11 +127,11 @@ pygame.display.update()
 myfont = pygame.font.SysFont("monospace", 75)
  
 while not game_over:
- 
+"""this part of code is to use the function defined previoulsy when game is running. the game_over is false initially""" 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            sys.exit()
- 
+            sys.exit()#this function if the user wants to quit the game or not
+ """the code below allows the circle used in the game follow the motion of the mouth"""
         if event.type == pygame.MOUSEMOTION:
             pygame.draw.rect(screen, BLACK, (0,0, width, SQUARESIZE))
             posx = event.pos[0]
